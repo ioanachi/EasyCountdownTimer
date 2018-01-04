@@ -1,0 +1,34 @@
+<div class="timers" ng-controller="TimerController as trctrl">
+  <div class="timersTable">
+
+
+    <div class="btns">
+      <button class="ybtn" type="button" name="button">Add</button>
+      <button ng-show="trctrl.trIndex != -1" class="gbtn" type="button" name="button" goto-path="/timers/edit/{ID}">Edit</button>
+      <button ng-show="trctrl.trIndex != -1" class="rbtn" ng-click="trctrl.deletefct()" type="button" name="button">Delete</button>
+
+    </div>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>User</th>
+        <th>Style</th>
+        <th>Font Color</th>
+        <th>Font Size</th>
+        <th>End Date</th>
+        <th>End Time</th>
+        <th>Timezone</th>
+      </tr>
+      <tr ng-repeat="item in trctrl.tableObj" ng-click="trctrl.clicked($index)" ng-class="{active : trctrl.trIndex==$index}">
+        <td>{{item.name}}</td>
+        <td>{{item.user}}</td>
+        <td>{{item.style}}</td>
+        <td>{{item.fontcolor}}</td>
+        <td>{{item.fontsize}}</td>
+        <td>{{item.endDate}}</td>
+        <td>{{item.endTime}}</td>
+        <td>{{item.timezone}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

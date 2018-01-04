@@ -1,0 +1,26 @@
+.dashboardfile {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  .dshboardMdivs {
+    width: 300px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+
+
+    .dshboarboxes {
+      height: 200px;
+      width: 100%;
+      // border: 1px solid rgb(107, 107, 107);
+      margin: 20px;
+
+
+    }
+  }
+}

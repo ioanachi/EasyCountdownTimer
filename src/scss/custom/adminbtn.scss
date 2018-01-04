@@ -1,0 +1,35 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #494949;
+
+html {
+  height: 100%;
+  width: 100%;
+
+  .body {
+    height: 100%;
+    width: 100%;
+
+    .btn {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 100%;
+      width: 100%;
+
+      .adminbtn1 {
+        height: 100px;
+        width: 175px;
+        font: 100% $font-stack;
+        color: white;
+
+      }
+      .adminbtn2 {
+        height: 100px;
+        width: 175px;
+        font: 100% $font-stack;
+        color: $primary-color;
+      
+      }
+    }
+  }
+}
