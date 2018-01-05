@@ -1,0 +1,150 @@
+<tr>
+<td headers="wq497">EET</td>
+<td headers="wq498">Western European Time</td>
+<td headers="wq499">GMT+1:00</td>
+</tr>
+<tr>
+<td headers="wq497">EET</td>
+<td headers="wq498">Eastern European Time</td>
+<td headers="wq499">GMT+2:00</td>
+</tr>
+<tr>
+<td headers="wq497">ART</td>
+<td headers="wq498">(Arabic) Egypt Standard Time</td>
+<td headers="wq499">GMT+2:00</td>
+</tr>
+<tr>
+<td headers="wq497">EAT</td>
+<td headers="wq498">Eastern African Time</td>
+<td headers="wq499">GMT+3:00</td>
+</tr>
+<tr>
+<td headers="wq497">MET</td>
+<td headers="wq498">Middle East Time</td>
+<td headers="wq499">GMT+3:30</td>
+</tr>
+<tr>
+<td headers="wq497">NET</td>
+<td headers="wq498">Near East Time</td>
+<td headers="wq499">GMT+4:00</td>
+</tr>
+<tr>
+<td headers="wq497">PLT</td>
+<td headers="wq498">Pakistan Lahore Time</td>
+<td headers="wq499">GMT+5:00</td>
+</tr>
+<tr>
+<td headers="wq497">IST</td>
+<td headers="wq498">India Standard Time</td>
+<td headers="wq499">GMT+5:30</td>
+</tr>
+<tr>
+<td headers="wq497">BST</td>
+<td headers="wq498">Bangladesh Standard Time</td>
+<td headers="wq499">GMT+6:00</td>
+</tr>
+<tr>
+<td headers="wq497">VST</td>
+<td headers="wq498">Vietnam Standard Time</td>
+<td headers="wq499">GMT+7:00</td>
+</tr>
+<tr>
+<td headers="wq497">CTT</td>
+<td headers="wq498">China Taiwan Time</td>
+<td headers="wq499">GMT+8:00</td>
+</tr>
+<tr>
+<td headers="wq497">JST</td>
+<td headers="wq498">Japan Standard Time</td>
+<td headers="wq499">GMT+9:00</td>
+</tr>
+<tr>
+<td headers="wq497">ACT</td>
+<td headers="wq498">Australia Central Time</td>
+<td headers="wq499">GMT+9:30</td>
+</tr>
+<tr>
+<td headers="wq497">AET</td>
+<td headers="wq498">Australia Eastern Time</td>
+<td headers="wq499">GMT+10:00</td>
+</tr>
+<tr>
+<td headers="wq497">SST</td>
+<td headers="wq498">Solomon Standard Time</td>
+<td headers="wq499">GMT+11:00</td>
+</tr>
+<tr>
+<td headers="wq497">NST</td>
+<td headers="wq498">New Zealand Standard Time</td>
+<td headers="wq499">GMT+12:00</td>
+</tr>
+<tr>
+<td headers="wq497">MIT</td>
+<td headers="wq498">Midway Islands Time</td>
+<td headers="wq499">GMT-11:00</td>
+</tr>
+<tr>
+<td headers="wq497">HST</td>
+<td headers="wq498">Hawaii Standard Time</td>
+<td headers="wq499">GMT-10:00</td>
+</tr>
+<tr>
+<td headers="wq497">AST</td>
+<td headers="wq498">Alaska Standard Time</td>
+<td headers="wq499">GMT-9:00</td>
+</tr>
+<tr>
+<td headers="wq497">PST</td>
+<td headers="wq498">Pacific Standard Time</td>
+<td headers="wq499">GMT-8:00</td>
+</tr>
+<tr>
+<td headers="wq497">PNT</td>
+<td headers="wq498">Phoenix Standard Time</td>
+<td headers="wq499">GMT-7:00</td>
+</tr>
+<tr>
+<td headers="wq497">MST</td>
+<td headers="wq498">Mountain Standard Time</td>
+<td headers="wq499">GMT-7:00</td>
+</tr>
+<tr>
+<td headers="wq497">CST</td>
+<td headers="wq498">Central Standard Time</td>
+<td headers="wq499">GMT-6:00</td>
+</tr>
+<tr>
+<td headers="wq497">EST</td>
+<td headers="wq498">Eastern Standard Time</td>
+<td headers="wq499">GMT-5:00</td>
+</tr>
+<tr>
+<td headers="wq497">IET</td>
+<td headers="wq498">Indiana Eastern Standard Time</td>
+<td headers="wq499">GMT-5:00</td>
+</tr>
+<tr>
+<td headers="wq497">PRT</td>
+<td headers="wq498">Puerto Rico and US Virgin Islands Time</td>
+<td headers="wq499">GMT-4:00</td>
+</tr>
+<tr>
+<td headers="wq497">CNT</td>
+<td headers="wq498">Canada Newfoundland Time</td>
+<td headers="wq499">GMT-3:30</td>
+</tr>
+<tr>
+<td headers="wq497">AGT</td>
+<td headers="wq498">Argentina Standard Time</td>
+<td headers="wq499">GMT-3:00</td>
+</tr>
+<tr>
+<td headers="wq497">BET</td>
+<td headers="wq498">Brazil Eastern Time</td>
+<td headers="wq499">GMT-3:00</td>
+</tr>
+<tr>
+<td headers="wq497">CAT</td>
+<td headers="wq498">Central African Time</td>
+<td headers="wq499">GMT-1:00</td>
+</tr>

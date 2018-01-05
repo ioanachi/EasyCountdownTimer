@@ -12,6 +12,15 @@ $routeProvider
 .when("/timers",{
   templateUrl:"src/views/timers.html"
 })
+.when("/timers/edit/:id",{
+  templateUrl:"src/views/timersEdit.html"
+})
+.when("/timers/add",{
+  templateUrl:"src/views/timersAdd.html"
+})
+
+
+
 
 
 .when('/404', {

@@ -18,3 +18,5 @@ import './custom/model/servicePut.js';
 import './custom/controllers/mainctrl.js'
 import './custom/controllers/dashboard.js'
 import './custom/controllers/timers.js'
+import './custom/controllers/timersEdit.js'
+import './custom/controllers/timersAdd.js'

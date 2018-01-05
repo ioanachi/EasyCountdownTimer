@@ -1,0 +1,38 @@
+<div class="timersAdd" ng-controller="TimeraddController as tractrl">
+<div class="">
+  <label for="input">Name</label>
+  <input type="text" name="" value="" required>
+</div>
+
+<div class="">
+<label for="userdropdwn">User</label>
+<select class="userdropdwn" name="">
+  <option value="one">Ciprian Turcu</option>
+</select>
+</div>
+
+<div class="">
+  <label for="styledropdwn">Style</label>
+  <select class="styledropdwn" name="">
+    <option value="one">style1</option>
+  </select>
+</div>
+
+<div class="">
+  <label for="styledropdwn">Style</label>
+  <color-picker
+      ng-model="color"
+      options="options"
+      api="api"
+      event-api="eventApi"
+  ></color-picker>
+</div>
+
+
+<div class="timezone">
+  <label for="tmzonedropdwn">Timezone</label>
+  <select class="tmzonedropdwn" name="" ng-model="tractrl.timezones" ng-options='item.name as item.newValue for item in tractrl.zoneName'>
+  </select>
+</div>
+
+</div>

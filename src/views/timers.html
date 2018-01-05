@@ -3,9 +3,9 @@
 
 
     <div class="btns">
-      <button class="ybtn" type="button" name="button">Add</button>
-      <button ng-show="trctrl.trIndex != -1" class="gbtn" type="button" name="button" goto-path="/timers/edit/{ID}">Edit</button>
-      <button ng-show="trctrl.trIndex != -1" class="rbtn" ng-click="trctrl.deletefct()" type="button" name="button">Delete</button>
+      <button class="ybtn" type="button" name="button" goto-path='/timers/add'>Add</button>
+      <button ng-show="trctrl.trIndex != -1" class="gbtn" type="button" name="button" ng-click="trctrl.goToEdit()">Edit</button>
+      <button ng-show="trctrl.trIndex != -1" class="rbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
 
     </div>
     <table>
