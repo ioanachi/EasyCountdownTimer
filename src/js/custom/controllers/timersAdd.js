@@ -6,6 +6,7 @@ import {
 app.controller("TimeraddController", ["$http", "$scope", '$location', function($http, $scope, $location) {
   var tThis = this;
   tThis.timeZone = [];
+  $scope.myColor;
   tThis.zoneName = [];
   $http.get('./src/js/custom/controllers/timezones.txt').then(function(raspuns) {
     var text = raspuns.data;
@@ -32,38 +33,31 @@ app.controller("TimeraddController", ["$http", "$scope", '$location', function($
   });
 
 
-
-
-  
   $scope.color = '#FF0000';
 
   // options - if a list is given then choose one of the items. The first item in the list will be the default
   $scope.options = {
-      // html attributes
-      required: [false, true],
-      disabled: [false, true],
+      required: [false],
+      disabled: [false],
       placeholder: '',
       inputClass: '',
       id: undefined,
       name: undefined,
-      // validation
-      restrictToFormat: [false, true],
-      preserveInputFormat: [false, true],
-      allowEmpty: [false, true],
-      // color
-      format: ['hsl', 'hsv', 'rgb', 'hex', 'hexString', 'hex8', 'hex8String', 'raw'],
-      case: ['upper', 'lower'],
-      // sliders
-      hue: [true, false],
-      saturation: [false, true],
-      lightness: [false, true], // Note: In the square mode this is HSV and in round mode this is HSL
-      alpha: [true, false],
-      dynamicHue: [true, false],
-      dynamicSaturation: [true, false],
-      dynamicLightness: [true, false],
-      dynamicAlpha: [true, false],
+      restrictToFormat: [false],
+      preserveInputFormat: [true],
+      allowEmpty: [false],
+      format: ['hex', 'raw'],
+      case: ['lower'],
+      hue: [ false],
+      saturation: [false],
+      lightness: [true],
+      alpha: [false],
+      dynamicHue: [true],
+      dynamicSaturation: [false],
+      dynamicLightness: [true],
+      dynamicAlpha: [false],
       // swatch
-      swatch: [true, false],
+      swatch: [false],
       swatchPos: ['left', 'right'],
       swatchBootstrap: [true, false],
       swatchOnly: [true, false],
@@ -99,16 +93,6 @@ app.controller("TimeraddController", ["$http", "$scope", '$location', function($
           class: '',
       },
   };
-
-  // exposed api functions
-  $scope.api.open();       // opens the popup
-  $scope.api.close();      // closes the popup
-  $scope.api.clear();      // removes value
-  $scope.api.reset();      // resets color value to original value
-  $scope.api.getElement(); // returns the wrapping <color-picker> element
-  $scope.api.getScope();   // returns the color picker $scope
-
-  // api event handlers
   $scope.eventApi = {
       onChange:  function(api, color, $event) {},
       onBlur:    function(api, color, $event) {},
@@ -118,18 +102,20 @@ app.controller("TimeraddController", ["$http", "$scope", '$location', function($
       onReset:   function(api, color, $event) {},
       onDestroy: function(api, color) {},
   };
+console.log($scope.api, "escswcewcwecwecwecwecwc");
+  // exposed api functions
+  // $scope.api.open();       // opens the popup
+  // $scope.api.close();      // closes the popup
+  // $scope.api.clear();      // removes value
+  // $scope.api.reset();      // resets color value to original value
+  // $scope.api.getElement(); // returns the wrapping <color-picker> element
+  // $scope.api.getScope();   // returns the color picker $scope
+
+  // api event handlers
+
 
   // decorator - all variables in options can be globally overridden here
-  angular
-      .module('app', ['color.picker'])
-      .config(function($provide) {
-          $provide.decorator('ColorPickerOptions', function($delegate) {
-              var options = angular.copy($delegate);
-              options.round = true;
-              options.alpha = false;
-              options.format = 'hex';
-              return options;
-          });
-      });
+
+
 
 }])

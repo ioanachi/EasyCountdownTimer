@@ -18,16 +18,8 @@
   </select>
 </div>
 
-<div class="">
-  <label for="styledropdwn">Font Color</label>
-  <color-picker
-      ng-model="color"
-      options="options"
-      api="api"
-      event-api="eventApi"
-  ></color-picker>
-</div>
-
+<color-picker ng-model="myColor"  api="api"></color-picker>
+<md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date"></md-datepicker>
 
 <div class="timezone">
   <label for="tmzonedropdwn">Timezone</label>

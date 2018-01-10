@@ -13,7 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
-  plugins: [
+  plugins: [ 
     new webpack.optimize.CommonsChunkPlugin({
       name: 'commons',
       filename: 'commons.js',
@@ -21,6 +21,7 @@ module.exports = {
     }),
     new BrowserSyncPlugin({
       host: 'localhost',
+      files: ['./src/views/*.html'],
       port: 3000,
       server: {
         baseDir: ['']
