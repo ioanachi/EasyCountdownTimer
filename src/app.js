@@ -13,6 +13,7 @@ import '../node_modules/angularjs-color-picker/dist/angularjs-color-picker.min.c
 import '../node_modules/angularjs-color-picker/dist/themes/angularjs-color-picker-bootstrap.min.css';
 import 'angular-radial-color-picker';
 import 'angularjs-color-picker';
+import 'angular-bootstrap-colorpicker';
 
 
 

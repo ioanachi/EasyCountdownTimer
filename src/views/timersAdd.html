@@ -1,30 +1,34 @@
 <div class="timersAdd" ng-controller="TimeraddController as tractrl">
-<div class="">
-  <label for="input">Name</label>
-  <input type="text" name="" value="" required>
-</div>
+  <div class="">
+    <label for="input">Name</label>
+    <input type="text" name="" value="" required>
+  </div>
 
-<div class="">
-<label for="userdropdwn">User</label>
-<select class="userdropdwn" name="">
+  <div class="">
+    <label for="userdropdwn">User</label>
+    <select class="userdropdwn" name="">
   <option value="one">Ciprian Turcu</option>
 </select>
-</div>
+  </div>
 
-<div class="">
-  <label for="styledropdwn">Style</label>
-  <select class="styledropdwn" name="">
+  <div class="">
+    <label for="styledropdwn">Style</label>
+    <select class="styledropdwn" name="">
     <option value="one">style1</option>
   </select>
-</div>
+  </div>
+  <input type="number" name="" value=""><br>
+  <!-- <color-picker ng-model="myColor"  api="api"></color-picker> -->
+  <br>
+  <md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date"></md-datepicker>
 
-<color-picker ng-model="myColor"  api="api"></color-picker>
-<md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date"></md-datepicker>
-
-<div class="timezone">
-  <label for="tmzonedropdwn">Timezone</label>
-  <select class="tmzonedropdwn" name="" ng-model="tractrl.timezones" ng-options='item.name as item.newValue for item in tractrl.zoneName'>
+  <div class="timezone">
+    <label for="tmzonedropdwn">Timezone</label>
+    <select class="tmzonedropdwn" name="" ng-model="tractrl.timezones" ng-options='item.name as item.newValue for item in tractrl.zoneName'>
   </select>
-</div>
+  </div>
+  <input colorpicker="rgb" type="text" ng-model="your_model" />
+  <div colorpicker ng-model="your_model"></div>
+  <input colorpicker colorpicker-with-input="true" type="text" ng-model="your_model" />
 
 </div>
