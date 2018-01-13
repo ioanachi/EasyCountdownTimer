@@ -3,7 +3,7 @@ import {
 } from "../main.js"
 
 
-app.controller("TimerController", ["$scope", "$mdDialog", '$location',  function($scope, $mdDialog, $location) {
+app.controller("TimerController", ["$scope", "$mdDialog", '$location', function($scope, $mdDialog, $location) {
   var tThis = this;
   tThis.trIndex = -1;
 
@@ -56,8 +56,8 @@ app.controller("TimerController", ["$scope", "$mdDialog", '$location',  function
 
 
   tThis.goToEdit = function() {
-$location.path('/timers/edit/'+tThis.trIndex)
-};
+    $location.path('/timers/edit/' + tThis.trIndex)
+  };
 
   $scope.showConfirm = function(ev) {
     var objToDelete = tThis.tableObj[tThis.trIndex];
@@ -79,7 +79,6 @@ $location.path('/timers/edit/'+tThis.trIndex)
       $scope.status = 'You decided to keep this timer.';
     });
   };
-
-
+  
 
 }])

@@ -27,13 +27,31 @@ app.controller("TimeraddController", ["$http", "$scope", '$location', function($
       tThis.zoneName.push(zoneNam);
     });
     console.log(tThis.zoneName);
-    tThis.zoneName.forEach(function(item){
-      item.newValue = item.value +' '+item.name;
+    tThis.zoneName.forEach(function(item) {
+      item.newValue = item.value + ' ' + item.name;
     })
   });
+  tThis.timeH = [];
+  tThis.timeS = [];
+
+  for (var i = 1; i < 25; i++) {
+    if (i < 10) {
+      tThis.timeH.push('0' + i);
+    } else {
+      tThis.timeH.push(i);
+    };
+  };
+  console.log(tThis.timeH);
 
 
-
+  for (var i = 1; i < 61; i++) {
+    if (i < 10) {
+      tThis.timeS.push('0' + i);
+    } else {
+      tThis.timeS.push(i);
+    };
+  };
+  console.log(tThis.timeS);
 
 
 }])

@@ -32,7 +32,6 @@
     "raw-loader": "^0.5.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "tinycolor": "^0.0.1",
     "url-loader": "^0.5.9",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"

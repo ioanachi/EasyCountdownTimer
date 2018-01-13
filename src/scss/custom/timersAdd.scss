@@ -1,0 +1,158 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+$font-stack: Helvetica, sans-serif;
+$font-Siz: 19px;
+
+.timersAdd {
+  height: 100%;
+  width: 100%;
+
+  .inputN {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+    label {
+      font: $font-stack;
+      font-size: $font-Siz;
+    }
+
+    .inputName {
+      display: block;
+      @include border-radius(5px);
+      width: 231px;
+      height: 29px;
+    }
+  }
+
+  .userdropd {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+    label {
+      font: $font-stack;
+      font-size: $font-Siz;
+    }
+
+    .userdropdwn {
+      @include border-radius(5px);
+      display: block;
+      width: 231px;
+      height: 26px;
+    }
+  }
+
+  .styledropd {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+    label {
+      font: $font-stack;
+      font-size: $font-Siz;
+    }
+
+    .styledropdwn {
+      display: block;
+      width: 231px;
+      height: 26px;
+      @include border-radius(5px);
+    }
+  }
+
+  .fontS {
+    width: 231px;
+    padding: 3px;
+    margin-bottom: 10px;
+    height: 80px;
+    margin-left: 37px;
+
+    .fontC {
+      label {
+        font: $font-stack;
+        font-size: 14px;
+      }
+      display: inline-block;
+      width: 75px;
+      height: 45px;
+
+      .fontColor {
+        width: 75px;
+        display: block;
+        @include border-radius(5px);
+      }
+    }
+
+    .fontsiz {
+      label {
+        font: $font-stack;
+        font-size: 14px;
+      }
+      display: block;
+      width: 45%;
+      height: 45%;
+      float: right;
+
+      .fontSize {
+        width: 65px;
+        display: block;
+        @include border-radius(5px);
+      }
+    }
+  }
+
+  .endD {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+    label {
+      font: $font-stack;
+      font-size: 16px;
+    }
+
+    .endDate {
+      padding-bottom: 20px;
+
+      button {
+        display: none;
+      }
+    }
+  }
+
+  .timerHS {
+    padding-top: 20px;
+
+    .dropdH {
+      margin-left: 10px;
+    }
+  }
+
+  .timezone {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+    label {
+      font: $font-stack;
+      font-size: 16px;
+    }
+
+    .tmzonedropdwn {
+      margin-top: 13px;
+      display: block;
+      width: 231px;
+      height: 26px;
+      @include border-radius(5px);
+    }
+  }
+  .buttonAdd{
+    margin-left: 35px;
+
+  }
+}
