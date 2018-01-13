@@ -146,13 +146,15 @@ $font-Siz: 19px;
     .tmzonedropdwn {
       margin-top: 13px;
       display: block;
-      width: 231px;
+      width: 229px;
       height: 26px;
       @include border-radius(5px);
     }
   }
-  .buttonAdd{
-    margin-left: 35px;
 
+  .buttonAdd {
+    margin-left: 35px;
+    height: 34px;
+    width: 100px;
   }
 }
