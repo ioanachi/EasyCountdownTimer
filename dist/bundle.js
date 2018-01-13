@@ -79268,7 +79268,7 @@ var _main = __webpack_require__(0);
 
 _main.app.config(function ($routeProvider) {
   $routeProvider.when("/", {
-    templateUrl: "src/views/adminbtn.html"
+    templateUrl: "src/views/adminBtn.html"
   }).when("/dashboard", {
     templateUrl: "src/views/dashboard.html"
   }).when("/timers", {
