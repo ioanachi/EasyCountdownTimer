@@ -4,7 +4,7 @@ import {
 app.config(function($routeProvider){
 $routeProvider
 .when("/",{
-  templateUrl:"src/views/adminbtn.html"
+  templateUrl:"src/views/adminBtn.html"
 })
 .when("/dashboard",{
   templateUrl:"src/views/dashboard.html"
