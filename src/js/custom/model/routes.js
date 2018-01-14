@@ -18,10 +18,15 @@ $routeProvider
 .when("/timers/add",{
   templateUrl:"src/views/timersAdd.html"
 })
+.when("/users",{
+  templateUrl:"src/views/users.html"
+})
 
 
 
-
+.when("/textProperties",{
+  templateUrl:"src/views/textProperties.html"
+})
 
 .when('/404', {
   templateUrl: "src/views/404.html"

@@ -79223,7 +79223,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "html {\n  height: 100%;\n  width: 100%; }\n  html .body {\n    height: 100%;\n    width: 100%; }\n    html .body .btn {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      height: 100%;\n      width: 100%; }\n      html .body .btn .adminbtn1 {\n        height: 100px;\n        width: 175px;\n        font: 100% Helvetica, sans-serif;\n        color: white; }\n      html .body .btn .adminbtn2 {\n        height: 100px;\n        width: 175px;\n        font: 100% Helvetica, sans-serif;\n        color: #494949; }\n\n.dashboardfile {\n  height: 100%;\n  width: 100%;\n  justify-content: center;\n  display: flex;\n  align-items: center; }\n  .dashboardfile .dshboardMdivs {\n    width: 300px;\n    align-items: flex-start;\n    flex-direction: row;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin: 20px; }\n    .dashboardfile .dshboardMdivs .dshboarboxes {\n      height: 200px;\n      width: 100%;\n      margin: 20px; }\n\n.timers {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .timers .timersTable {\n    width: 1200px; }\n    .timers .timersTable .btns {\n      float: right;\n      margin-bottom: 10px; }\n      .timers .timersTable .btns button {\n        height: 45px;\n        width: 85px;\n        font-size: 25px;\n        color: white;\n        border: 0;\n        margin: 2px; }\n      .timers .timersTable .btns .ybtn {\n        flex: start;\n        background-color: #f4c41d; }\n      .timers .timersTable .btns .gbtn {\n        background-color: #0fd02e; }\n      .timers .timersTable .btns .rbtn {\n        background-color: #f41d1d; }\n    .timers .timersTable table {\n      border: 1px solid #fff;\n      padding: 40px;\n      margin-top: 20px; }\n      .timers .timersTable table tr {\n        font-size: 20px;\n        border: 1px solid #fff;\n        padding: 40px;\n        margin: 20px;\n        height: 140px; }\n        .timers .timersTable table tr:nth-child(2n+1) {\n          background-color: #dde1e3; }\n        .timers .timersTable table tr th {\n          border: 1px solid #fff;\n          padding: 40px;\n          margin: 20px;\n          background-color: #06106c;\n          color: #ffffff; }\n        .timers .timersTable table tr td {\n          padding: 40px;\n          margin: 20px; }\n    .timers .timersTable .active {\n      background-color: #5d91f5; }\n      .timers .timersTable .active:nth-child(2n+1) {\n        background-color: #5d91f5; }\n\n.timersAdd {\n  height: 100%;\n  width: 100%; }\n  .timersAdd .inputN {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .inputN label {\n      font: Helvetica, sans-serif;\n      font-size: 19px; }\n    .timersAdd .inputN .inputName {\n      display: block;\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px;\n      width: 231px;\n      height: 29px; }\n  .timersAdd .userdropd {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .userdropd label {\n      font: Helvetica, sans-serif;\n      font-size: 19px; }\n    .timersAdd .userdropd .userdropdwn {\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px;\n      display: block;\n      width: 231px;\n      height: 26px; }\n  .timersAdd .styledropd {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .styledropd label {\n      font: Helvetica, sans-serif;\n      font-size: 19px; }\n    .timersAdd .styledropd .styledropdwn {\n      display: block;\n      width: 231px;\n      height: 26px;\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px; }\n  .timersAdd .fontS {\n    width: 231px;\n    padding: 3px;\n    margin-bottom: 10px;\n    height: 80px;\n    margin-left: 37px; }\n    .timersAdd .fontS .fontC {\n      display: inline-block;\n      width: 75px;\n      height: 45px; }\n      .timersAdd .fontS .fontC label {\n        font: Helvetica, sans-serif;\n        font-size: 14px; }\n      .timersAdd .fontS .fontC .fontColor {\n        width: 75px;\n        display: block;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        -ms-border-radius: 5px;\n        border-radius: 5px; }\n    .timersAdd .fontS .fontsiz {\n      display: block;\n      width: 45%;\n      height: 45%;\n      float: right; }\n      .timersAdd .fontS .fontsiz label {\n        font: Helvetica, sans-serif;\n        font-size: 14px; }\n      .timersAdd .fontS .fontsiz .fontSize {\n        width: 65px;\n        display: block;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        -ms-border-radius: 5px;\n        border-radius: 5px; }\n  .timersAdd .endD {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .endD label {\n      font: Helvetica, sans-serif;\n      font-size: 16px; }\n    .timersAdd .endD .endDate {\n      padding-bottom: 20px; }\n      .timersAdd .endD .endDate button {\n        display: none; }\n  .timersAdd .timerHS {\n    padding-top: 20px; }\n    .timersAdd .timerHS .dropdH {\n      margin-left: 10px; }\n  .timersAdd .timezone {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .timezone label {\n      font: Helvetica, sans-serif;\n      font-size: 16px; }\n    .timersAdd .timezone .tmzonedropdwn {\n      margin-top: 13px;\n      display: block;\n      width: 229px;\n      height: 26px;\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px; }\n  .timersAdd .buttonAdd {\n    margin-left: 35px;\n    height: 34px;\n    width: 100px; }\n", ""]);
+exports.push([module.i, "html {\n  height: 100%;\n  width: 100%; }\n  html .body {\n    height: 100%;\n    width: 100%; }\n    html .body .btn {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      height: 100%;\n      width: 100%; }\n      html .body .btn .adminbtn1 {\n        height: 100px;\n        width: 175px;\n        font: 100% Helvetica, sans-serif;\n        color: white; }\n      html .body .btn .adminbtn2 {\n        height: 100px;\n        width: 175px;\n        font: 100% Helvetica, sans-serif;\n        color: #494949; }\n\n.dashboardfile {\n  height: 100%;\n  width: 100%;\n  justify-content: center;\n  display: flex;\n  align-items: center; }\n  .dashboardfile .dshboardMdivs {\n    width: 300px;\n    align-items: flex-start;\n    flex-direction: row;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin: 20px; }\n    .dashboardfile .dshboardMdivs .dshboarboxes {\n      height: 200px;\n      width: 100%;\n      margin: 20px; }\n\n.timers {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .timers .timersTable {\n    width: 1200px; }\n    .timers .timersTable .btns {\n      float: right;\n      margin-bottom: 10px; }\n      .timers .timersTable .btns button {\n        height: 45px;\n        width: 85px;\n        font-size: 25px;\n        color: white;\n        border: 0;\n        margin: 2px; }\n      .timers .timersTable .btns .ybtn {\n        flex: start;\n        background-color: #f4c41d; }\n      .timers .timersTable .btns .gbtn {\n        background-color: #0fd02e; }\n      .timers .timersTable .btns .rbtn {\n        background-color: #f41d1d; }\n    .timers .timersTable table {\n      border: 1px solid #fff;\n      padding: 40px;\n      margin-top: 20px; }\n      .timers .timersTable table tr {\n        font-size: 20px;\n        border: 1px solid #fff;\n        padding: 40px;\n        margin: 20px;\n        height: 140px; }\n        .timers .timersTable table tr:nth-child(2n+1) {\n          background-color: #dde1e3; }\n        .timers .timersTable table tr th {\n          border: 1px solid #fff;\n          padding: 40px;\n          margin: 20px;\n          background-color: #06106c;\n          color: #ffffff; }\n        .timers .timersTable table tr td {\n          padding: 40px;\n          margin: 20px; }\n    .timers .timersTable .active {\n      background-color: #5d91f5; }\n      .timers .timersTable .active:nth-child(2n+1) {\n        background-color: #5d91f5; }\n\n.timersAdd {\n  height: 100%;\n  width: 100%; }\n  .timersAdd .inputN {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .inputN label {\n      font: Helvetica, sans-serif;\n      font-size: 19px; }\n    .timersAdd .inputN .inputName {\n      display: block;\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px;\n      width: 231px;\n      height: 29px; }\n  .timersAdd .userdropd {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .userdropd label {\n      font: Helvetica, sans-serif;\n      font-size: 19px; }\n    .timersAdd .userdropd .userdropdwn {\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px;\n      display: block;\n      width: 231px;\n      height: 26px; }\n  .timersAdd .styledropd {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .styledropd label {\n      font: Helvetica, sans-serif;\n      font-size: 19px; }\n    .timersAdd .styledropd .styledropdwn {\n      display: block;\n      width: 231px;\n      height: 26px;\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px; }\n  .timersAdd .fontS {\n    width: 231px;\n    padding: 3px;\n    margin-bottom: 10px;\n    height: 80px;\n    margin-left: 37px; }\n    .timersAdd .fontS .fontC {\n      display: inline-block;\n      width: 75px;\n      height: 45px; }\n      .timersAdd .fontS .fontC label {\n        font: Helvetica, sans-serif;\n        font-size: 14px; }\n      .timersAdd .fontS .fontC .fontColor {\n        width: 75px;\n        display: block;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        -ms-border-radius: 5px;\n        border-radius: 5px; }\n    .timersAdd .fontS .fontsiz {\n      display: block;\n      width: 45%;\n      height: 45%;\n      float: right; }\n      .timersAdd .fontS .fontsiz label {\n        font: Helvetica, sans-serif;\n        font-size: 14px; }\n      .timersAdd .fontS .fontsiz .fontSize {\n        width: 65px;\n        display: block;\n        -webkit-border-radius: 5px;\n        -moz-border-radius: 5px;\n        -ms-border-radius: 5px;\n        border-radius: 5px; }\n  .timersAdd .endD {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .endD label {\n      font: Helvetica, sans-serif;\n      font-size: 16px; }\n    .timersAdd .endD .endDate {\n      padding-bottom: 20px; }\n      .timersAdd .endD .endDate button {\n        display: none; }\n  .timersAdd .timerHS {\n    padding-top: 20px; }\n    .timersAdd .timerHS .dropdH {\n      margin-left: 10px; }\n  .timersAdd .timezone {\n    padding: 10px;\n    margin-bottom: 10px;\n    margin-left: 25px; }\n    .timersAdd .timezone label {\n      font: Helvetica, sans-serif;\n      font-size: 16px; }\n    .timersAdd .timezone .tmzonedropdwn {\n      margin-top: 13px;\n      display: block;\n      width: 229px;\n      height: 26px;\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;\n      -ms-border-radius: 5px;\n      border-radius: 5px; }\n  .timersAdd .buttonAdd {\n    margin-left: 35px;\n    height: 34px;\n    width: 100px; }\n\n.users {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .users .usersTable {\n    min-width: 766px; }\n    .users .usersTable .btns {\n      text-align: right;\n      margin-bottom: 10px; }\n      .users .usersTable .btns button {\n        height: 45px;\n        width: 85px;\n        font-size: 25px;\n        color: white;\n        border: 0;\n        margin: 2px; }\n      .users .usersTable .btns .abtn {\n        flex: start;\n        background-color: #f4c41d; }\n      .users .usersTable .btns .ebtn {\n        background-color: #0fd02e; }\n      .users .usersTable .btns .dbtn {\n        background-color: #f41d1d; }\n    .users .usersTable table {\n      border: 1px solid #fff;\n      padding: 40px;\n      margin-top: 20px; }\n      .users .usersTable table tr {\n        font-size: 20px;\n        border: 1px solid #fff;\n        padding: 40px;\n        margin: 20px;\n        height: 100px; }\n        .users .usersTable table tr:nth-child(2n+1) {\n          background-color: #dde1e3; }\n        .users .usersTable table tr th {\n          height: 100px;\n          border: 1px solid #fff;\n          padding: 40px;\n          margin: 20px;\n          background-color: #06106c;\n          color: #ffffff; }\n        .users .usersTable table tr td {\n          padding: 40px;\n          margin: 20px; }\n    .users .usersTable .active {\n      background-color: #5d91f5; }\n      .users .usersTable .active:nth-child(2n+1) {\n        background-color: #5d91f5; }\n\n.users {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .users .usersTable {\n    min-width: 766px; }\n    .users .usersTable .btns {\n      text-align: right;\n      margin-bottom: 10px; }\n      .users .usersTable .btns button {\n        height: 45px;\n        width: 85px;\n        font-size: 25px;\n        color: white;\n        border: 0;\n        margin: 2px; }\n      .users .usersTable .btns .abtn {\n        flex: start;\n        background-color: #f4c41d; }\n      .users .usersTable .btns .ebtn {\n        background-color: #0fd02e; }\n      .users .usersTable .btns .dbtn {\n        background-color: #f41d1d; }\n    .users .usersTable table {\n      border: 1px solid #fff;\n      padding: 40px;\n      margin-top: 20px; }\n      .users .usersTable table tr {\n        font-size: 20px;\n        border: 1px solid #fff;\n        padding: 40px;\n        margin: 20px;\n        height: 100px; }\n        .users .usersTable table tr:nth-child(2n+1) {\n          background-color: #dde1e3; }\n        .users .usersTable table tr th {\n          height: 100px;\n          border: 1px solid #fff;\n          padding: 40px;\n          margin: 20px;\n          background-color: #06106c;\n          color: #ffffff; }\n        .users .usersTable table tr td {\n          padding: 40px;\n          margin: 20px; }\n    .users .usersTable .active {\n      background-color: #5d91f5; }\n      .users .usersTable .active:nth-child(2n+1) {\n        background-color: #5d91f5; }\n", ""]);
 
 // exports
 
@@ -79257,6 +79257,10 @@ __webpack_require__(47);
 
 __webpack_require__(48);
 
+__webpack_require__(49);
+
+__webpack_require__(50);
+
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -79277,6 +79281,10 @@ _main.app.config(function ($routeProvider) {
     templateUrl: "src/views/timersEdit.html"
   }).when("/timers/add", {
     templateUrl: "src/views/timersAdd.html"
+  }).when("/users", {
+    templateUrl: "src/views/users.html"
+  }).when("/textProperties", {
+    templateUrl: "src/views/textProperties.html"
   }).when('/404', {
     templateUrl: "src/views/404.html"
   }).otherwise("/404");
@@ -79499,6 +79507,114 @@ _main.app.controller("TimeraddController", ["$http", "$scope", '$location', func
     };
   };
   console.log(tThis.timeS);
+}]);
+
+/***/ }),
+/* 49 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _main = __webpack_require__(0);
+
+_main.app.controller("UsersController", ["$scope", "$mdDialog", '$location', function ($scope, $mdDialog, $location) {
+  var tThis = this;
+  tThis.trIndex = -1;
+
+  tThis.usersObj = [{
+    name: "Ciprian",
+    surname: "Turcu",
+    username: "ciprianturcu",
+    email: "myEmail@mail.com",
+    type: "Admin"
+
+  }, {
+    name: "John",
+    surname: "Doe",
+    username: "johnny",
+    email: "Email@mail.com",
+    type: "user"
+
+  }];
+  tThis.clicked = function (index) {
+    console.log(index);
+    tThis.trIndex = index;
+  };
+
+  tThis.goToEdit = function () {
+    $location.path('/users/edit/' + tThis.trIndex);
+  };
+
+  $scope.showConfirm = function (ev) {
+    var objToDelete = tThis.usersObj[tThis.trIndex];
+    console.log(objToDelete, "objToDelete");
+    // Appending dialog to document.body to cover sidenav in docs app
+    var confirm = $mdDialog.confirm().title('Would you like to delete timer?').ariaLabel('Lucky day').targetEvent(ev).ok('Yes').cancel('No');
+    $mdDialog.show(confirm).then(function () {
+
+      $scope.status = 'You decided to delete this timer.';
+
+      tThis.usersObj.splice(objToDelete, 1);
+      tThis.trIndex = -1;
+    }, function () {
+      $scope.status = 'You decided to keep this timer.';
+    });
+  };
+}]);
+
+/***/ }),
+/* 50 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _main = __webpack_require__(0);
+
+_main.app.controller("UsersController", ["$scope", "$mdDialog", '$location', function ($scope, $mdDialog, $location) {
+  var tThis = this;
+  tThis.trIndex = -1;
+
+  tThis.usersObj = [{
+    name: "Ciprian",
+    surname: "Turcu",
+    username: "ciprianturcu",
+    email: "myEmail@mail.com",
+    type: "Admin"
+
+  }, {
+    name: "John",
+    surname: "Doe",
+    username: "johnny",
+    email: "Email@mail.com",
+    type: "user"
+
+  }];
+  tThis.clicked = function (index) {
+    console.log(index);
+    tThis.trIndex = index;
+  };
+
+  tThis.goToEdit = function () {
+    $location.path('/users/edit/' + tThis.trIndex);
+  };
+
+  $scope.showConfirm = function (ev) {
+    var objToDelete = tThis.usersObj[tThis.trIndex];
+    console.log(objToDelete, "objToDelete");
+    // Appending dialog to document.body to cover sidenav in docs app
+    var confirm = $mdDialog.confirm().title('Would you like to delete timer?').ariaLabel('Lucky day').targetEvent(ev).ok('Yes').cancel('No');
+    $mdDialog.show(confirm).then(function () {
+
+      $scope.status = 'You decided to delete this timer.';
+
+      tThis.usersObj.splice(objToDelete, 1);
+      tThis.trIndex = -1;
+    }, function () {
+      $scope.status = 'You decided to keep this timer.';
+    });
+  };
 }]);
 
 /***/ })
