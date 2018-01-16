@@ -1,77 +1,89 @@
-.users {
+.container-fluid {
   height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  .usersTable {
-    min-width: 766px;
+  .row {
+    height: 100%;
 
-    .btns {
-      text-align: right;
-      margin-bottom: 10px;
+    .main {
+      height: 100%;
 
-      button {
-        height: 45px;
-        width: 85px;
-        font-size: 25px;
-        color: white;
-        border: 0;
-        margin: 2px;
-      }
+      .textProperties {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-      .abtn {
-        flex: start;
-        background-color: rgb(244, 196, 29);
-      }
+        .txtPropertiesTable {
+          min-width: 766px;
 
-      .ebtn {
-        background-color: rgb(15, 208, 46);
-      }
+          .btns {
+            text-align: right;
+            margin-bottom: 10px;
 
-      .dbtn {
-        background-color: rgb(244, 29, 29);
-      }
-    }
+            button {
+              height: 45px;
+              width: 85px;
+              font-size: 25px;
+              color: white;
+              border: 0;
+              margin: 2px;
+            }
 
-    table {
-      border: 1px solid #fff;
-      padding: 40px;
-      margin-top: 20px;
+            .atxbtn {
+              flex: start;
+              background-color: rgb(244, 196, 29);
+            }
 
-      tr {
-        font-size: 20px;
-        border: 1px solid #fff;
-        padding: 40px;
-        margin: 20px;
-        height: 100px;
+            .etxbtn {
+              background-color: rgb(15, 208, 46);
+            }
 
-        &:nth-child(2n+1) {
-          background-color: rgb(221, 225, 227);
+            .dtxbtn {
+              background-color: rgb(244, 29, 29);
+            }
+          }
+
+          table {
+            border: 1px solid #fff;
+            padding: 40px;
+            margin-top: 20px;
+
+            tr {
+              font-size: 20px;
+              border: 1px solid #fff;
+              padding: 40px;
+              margin: 20px;
+              height: 80px;
+
+              &:nth-child(2n+1) {
+                background-color: rgb(221, 225, 227);
+              }
+
+              th {
+                height: 60px;
+                border: 1px solid #fff;
+                padding: 40px;
+                margin: 20px;
+                background-color: rgb(6, 16, 108);
+                color: #ffffff;
+              }
+
+              td {
+                padding: 40px;
+                margin: 20px;
+              }
+            }
+          }
+
+          .active {
+            background-color: rgb(93, 145, 245);
+
+            &:nth-child(2n+1) {
+              background-color: rgb(93, 145, 245);
+            }
+          }
         }
-
-        th {
-          height: 100px;
-          border: 1px solid #fff;
-          padding: 40px;
-          margin: 20px;
-          background-color: rgb(6, 16, 108);
-          color: #ffffff;
-        }
-
-        td {
-          padding: 40px;
-          margin: 20px;
-        }
-      }
-    }
-
-    .active {
-      background-color: rgb(93, 145, 245);
-
-      &:nth-child(2n+1) {
-        background-color: rgb(93, 145, 245);
       }
     }
   }

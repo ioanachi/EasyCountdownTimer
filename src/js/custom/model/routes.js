@@ -27,7 +27,9 @@ $routeProvider
 .when("/textProperties",{
   templateUrl:"src/views/textProperties.html"
 })
-
+.when("/login",{
+  templateUrl:"src/views/login.html"
+})
 .when('/404', {
   templateUrl: "src/views/404.html"
 })

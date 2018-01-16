@@ -1,0 +1,37 @@
+.loginPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/img/counting.jpg");
+  background-size: cover;
+
+  .loginBox {
+    min-width: 366px;
+    min-height: 366px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .smallbox {
+      display: block;
+    }
+
+    .inputN {
+      margin-bottom: 80px;
+      .inputName{
+        margin-left: 38pxs;
+      }
+    }
+
+    .inputp {
+      display: block;
+      .inputPass{
+        margin-left: 10px;
+
+      }
+    }
+  }
+}

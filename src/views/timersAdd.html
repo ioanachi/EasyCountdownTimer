@@ -1,69 +1,64 @@
-<div class="timersAdd" ng-controller="TimeraddController as tractrl">
-  <div class="inputN">
+<div class="container-fluid">
+  <div class="row main-content">
+    <div class="col-lg-12 main">
+      <div class="timersAdd" ng-controller="TimeraddController as tractrl">
+        <div class="inputN">
 
-    <label for="inputName">Name</label>
-    <input class="inputName" type="text" name="" value="" required>
-  </div>
+          <label for="inputName">Name</label>
+          <input class="inputName" type="text" name="" value="" required>
+        </div>
 
-  <div class="userdropd">
-    <label for="userdropdwn">User</label>
-    <select class="userdropdwn" name="">
+        <div class="userdropd">
+          <label for="userdropdwn">User</label>
+          <select class="userdropdwn" name="">
   <option value="one">Ciprian Turcu</option>
 </select>
-  </div>
+        </div>
 
-  <div class="styledropd">
-    <label for="styledropdwn">Style</label>
-    <select class="styledropdwn" name="">
+        <div class="styledropd">
+          <label for="styledropdwn">Style</label>
+          <select class="styledropdwn" name="">
     <option value="one">style1</option>
   </select>
-  </div>
+        </div>
 
 
-  <div class="fontS">
-    <div class="fontC">
+        <div class="fontS">
+          <div class="fontC">
 
-      <label for="fontColor">Font Color</label>
-      <input class="fontColor" colorpicker="hex" type="text" ng-model="your_model" />
-    </div>
+            <label for="fontColor">Font Color</label>
+            <input class="fontColor" colorpicker="hex" type="text" ng-model="your_model" />
+          </div>
 
-    <div class="fontsiz">
-      <label for="fontSize">Font Size</label>
-      <input class="fontSize" type="number" name="" value="">
-    </div>
+          <div class="fontsiz">
+            <label for="fontSize">Font Size</label>
+            <input class="fontSize" type="number" name="" value="">
+          </div>
 
-  </div>
-
-
-
-  <div class="endD">
-    <label for="fontColor">End Date</label>
-    <md-datepicker class="endDate" ng-model="ctrl.myDate" md-placeholder="Enter date"></md-datepicker>
-
-
-    <div class="timerHS">
-      <label for="fontColor">End Time</label>
-      <select class="dropdH" name="" ng-model="tractrl.hourT" ng-options="th as th for th in tractrl.timeH">
+        </div>
+        <div class="endD">
+          <label for="fontColor">End Date</label>
+          <md-datepicker class="endDate" ng-model="ctrl.myDate" md-placeholder="Enter date"></md-datepicker>
+          <div class="timerHS">
+            <label for="fontColor">End Time</label>
+            <select class="dropdH" name="" ng-model="tractrl.hourT" ng-options="th as th for th in tractrl.timeH">
  <option value="" disabled selected>Hour</option>
       </select>
-      <select class="" name="" ng-model="tractrl.secondsT" ng-options="ts as ts for ts in tractrl.timeS">
+            <select class="" name="" ng-model="tractrl.secondsT" ng-options="ts as ts for ts in tractrl.timeS">
         <option value="" disabled selected>Seconds</option>
       </select>
+          </div>
+        </div>
+        <div class="timezone">
+          <label for="tmzonedropdwn">Timezone</label>
+          <select class="tmzonedropdwn" name="" ng-model="tractrl.timezones" ng-options='item.name as item.newValue for item in tractrl.zoneName'>
+  </select>
+        </div>
+
+        <div class="">
+          <button class="buttonAdd" type="buttonAdd" name="button">Add Timer</button>
+        </div>
+      </div>
     </div>
   </div>
-
-
-
-
-  <div class="timezone">
-    <label for="tmzonedropdwn">Timezone</label>
-    <select class="tmzonedropdwn" name="" ng-model="tractrl.timezones" ng-options='item.name as item.newValue for item in tractrl.zoneName'>
-  </select>
-  </div>
-
-  <div class="">
-    <button  class="buttonAdd" type="buttonAdd" name="button">Add Timer</button>
-  </div>
-
-
 </div>

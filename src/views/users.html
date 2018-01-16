@@ -1,29 +1,32 @@
-<div class="users" ng-controller="UsersController as usctrl">
-  <div class="usersTable">
+<div class="container-fluid">
+  <div class="row main-content">
+    <div class="col-lg-12 main">
+      <div class="users" ng-controller="UsersController as usctrl">
+        <div class="usersTable">
+          <div class="btns">
+            <button class="abtn" type="button" name="button" goto-path='/users/add'>Add</button>
+            <button ng-show="usctrl.trIndex != -1" class="ebtn" type="button" name="button" ng-click="usctrl.goToEdit()">Edit</button>
+            <button ng-show="usctrl.trIndex != -1" class="dbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
 
-
-    <div class="btns">
-      <!--  -->
-      <button class="abtn" type="button" name="button" goto-path='/users/add'>Add</button>
-      <button ng-show="usctrl.trIndex != -1" class="ebtn" type="button" name="button" ng-click="usctrl.goToEdit()">Edit</button>
-      <button ng-show="usctrl.trIndex != -1" class="dbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
-
+          </div>
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Surname</th>
+              <th>User Name</th>
+              <th>Email</th>
+              <th>Type</th>
+            </tr>
+            <tr ng-repeat="item in usctrl.usersObj" ng-click="usctrl.clicked($index)" ng-class="{active : usctrl.trIndex==$index}">
+              <td>{{item.name}}</td>
+              <td>{{item.surname}}</td>
+              <td>{{item.username}}</td>
+              <td>{{item.email}}</td>
+              <td>{{item.type}}</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Surname</th>
-        <th>User Name</th>
-        <th>Email</th>
-        <th>Type</th>
-      </tr>
-      <tr ng-repeat="item in usctrl.usersObj" ng-click="usctrl.clicked($index)" ng-class="{active : usctrl.trIndex==$index}">
-        <td>{{item.name}}</td>
-        <td>{{item.surname}}</td>
-        <td>{{item.username}}</td>
-        <td>{{item.email}}</td>
-        <td>{{item.type}}</td>
-      </tr>
-    </table>
   </div>
 </div>
