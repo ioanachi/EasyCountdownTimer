@@ -4,8 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/src/img/counting.jpg");
-  background-size:cover;
+  background: linear-gradient(135deg, orange, orange 25%, cyan);
+  // background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+   // background: linear-gradient(45deg, red, blue);
 
   .loginBox {
     min-width: 366px;
@@ -19,19 +20,19 @@
       display: block;
     }
 
-    .inputN {
-      margin-bottom: 80px;
-      .inputName{
-        margin-left: 38pxs;
-      }
-    }
-
-    .inputp {
-      display: block;
-      .inputPass{
-        margin-left: 10px;
-
-      }
-    }
+    // .inputN {
+    //   margin-bottom: 80px;
+    //   .inputName{
+    //     margin-left: 38pxs;
+    //   }
+    // }
+    //
+    // .inputp {
+    //   display: block;
+    //   .inputPass{
+    //     margin-left: 10px;
+    //
+    //   }
+    // }
   }
 }
