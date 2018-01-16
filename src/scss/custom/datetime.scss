@@ -1,0 +1,78 @@
+.datetime {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .datetimeTable {
+    width: 1200px;
+    .btns {
+      float: right;
+      margin-bottom: 10px;
+      // height: 450px;
+      // width: 300px;
+      button {
+        height: 45px;
+        width: 85px;
+        font-size: 25px;
+        color: white;
+        border: 0;
+        margin: 2px;
+      }
+
+      .ybtn {
+        flex: start;
+        background-color: rgb(244, 196, 29);
+      }
+
+      .gbtn {
+        background-color: rgb(15, 208, 46);
+      }
+
+      .rbtn {
+        background-color: rgb(244, 29, 29);
+      }
+    }
+
+    table {
+      border: 1px solid #fff;
+      padding: 40px;
+      margin-top: 20px;
+
+      tr {
+        font-size: 20px;
+        border: 1px solid #fff;
+        padding: 40px;
+        margin: 20px;
+        height: 140px;
+
+        &:nth-child(2n+1) {
+          background-color: rgb(221, 225, 227);
+        }
+
+        th {
+
+          border: 1px solid #fff;
+          padding: 40px;
+          margin: 20px;
+          background-color: rgb(6, 16, 108);
+          color: #ffffff;
+        }
+
+        td {
+          padding: 40px;
+          margin: 20px;
+        }
+      }
+    }
+
+    .active {
+      background-color: rgb(93, 145, 245);
+
+      &:nth-child(2n+1) {
+        background-color: rgb(93, 145, 245);
+      }
+    }
+  }
+}

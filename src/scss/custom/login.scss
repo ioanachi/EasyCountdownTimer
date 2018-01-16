@@ -1,12 +1,16 @@
+@mixin border-shadow($radius) {
+  -webkit-box-shadow: 0px 6px 20px 0px rgba(0,0,0,$radius);
+-moz-box-shadow: 0px 6px 20px 0px rgba(0,0,0,$radius);
+box-shadow: 0px 6px 20px 0px rgba(0,0,0,$radius);
+}
+
 .loginPage {
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #626262, rgb(173, 0, 48) 30%, rgb(0, 0, 0));
-  // background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-   // background: linear-gradient(45deg, red, blue);
+  background: linear-gradient(135deg, orange, orange 25%, cyan);
 
   .loginBox {
     min-width: 366px;
@@ -15,9 +19,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include border-shadow(0.75);
+    
 
     .smallbox {
       display: block;
+
     }
 
     // .inputN {
