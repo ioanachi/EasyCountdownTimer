@@ -3,50 +3,17 @@ import {
 } from "../main.js"
 
 
-app.controller("TimerController", ["$scope", "$mdDialog", '$location', function($scope, $mdDialog, $location) {
+app.controller("StylesController", ["$scope", "$mdDialog", '$location', function($scope, $mdDialog, $location) {
   var tThis = this;
   tThis.trIndex = -1;
 
 
-  tThis.tableObj = [{
+  tThis.stylesObj = [{
       name: "My Timer1",
-      user: "Cip1",
-      style: "Style 1",
-      fontcolor: "Blue",
-      fontsize: "18px",
-      endDate: "12.12.2018",
-      endTime: "12:12:00",
-      timezone: "+2:00 GMT"
-    },
-    {
-      name: "My Timer2",
-      user: "Cip2",
-      style: "Style 1",
-      fontcolor: "Blue",
-      fontsize: "18px",
-      endDate: "12.12.2018",
-      endTime: "12:12:00",
-      timezone: "+2:00 GMT"
-    },
-    {
-      name: "My Timer3",
-      user: "Cip3",
-      style: "Style 1",
-      fontcolor: "Blue",
-      fontsize: "18px",
-      endDate: "12.12.2018",
-      endTime: "12:12:00",
-      timezone: "+2:00 GMT"
-    },
-    {
-      name: "My Timer4",
-      user: "Cip4",
-      style: "Style 1",
-      fontcolor: "Blue",
-      fontsize: "18px",
-      endDate: "12.12.2018",
-      endTime: "12:12:00",
-      timezone: "+2:00 GMT"
+      description: "Cip1",
+      imagePreview: "Style 1",
+      numberOrientation: "Blue",
+      periodOrientation: "18px",
     }
   ];
   tThis.clicked = function(index) {
@@ -79,6 +46,6 @@ app.controller("TimerController", ["$scope", "$mdDialog", '$location', function(
       $scope.status = 'You decided to keep this timer.';
     });
   };
-  
+
 
 }])

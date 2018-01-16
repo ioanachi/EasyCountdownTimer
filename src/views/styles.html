@@ -1,12 +1,12 @@
 <div class="container-fluid">
   <div class="row main-content">
     <div class="col-lg-12 main">
-      <div class="styles" ng-controller="TimerController as trctrl">
+      <div class="styles" ng-controller="StylesController as stctrl">
         <div class="stylesTable">
           <div class="btns">
             <button class="ybtn" type="button" name="button" goto-path='/timers/add'>Add</button>
-            <button ng-show="trctrl.trIndex != -1" class="gbtn" type="button" name="button" ng-click="trctrl.goToEdit()">Edit</button>
-            <button ng-show="trctrl.trIndex != -1" class="rbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
+            <button ng-show="stctrl.trIndex != -1" class="gbtn" type="button" name="button" ng-click="stctrl.goToEdit()">Edit</button>
+            <button ng-show="stctrl.trIndex != -1" class="rbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
 
           </div>
           <table>
@@ -17,7 +17,7 @@
               <th>Number Orientation</th>
               <th>Period Orientation</th>
             </tr>
-            <tr ng-repeat="item in trctrl.tableObj" ng-click="trctrl.clicked($index)" ng-class="{active : trctrl.trIndex==$index}">
+            <tr ng-repeat="item in stctrl.stylesObj" ng-click="stctrl.clicked($index)" ng-class="{active : stctrl.trIndex==$index}">
               <td>{{item.name}}</td>
               <td>{{item.description}}</td>
               <td>{{item.imagePreview}}</td>
