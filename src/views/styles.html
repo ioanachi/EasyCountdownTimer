@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row main-content">
+    <div class="col-lg-12 main">
+      <div class="styles" ng-controller="TimerController as trctrl">
+        <div class="stylesTable">
+          <div class="btns">
+            <button class="ybtn" type="button" name="button" goto-path='/timers/add'>Add</button>
+            <button ng-show="trctrl.trIndex != -1" class="gbtn" type="button" name="button" ng-click="trctrl.goToEdit()">Edit</button>
+            <button ng-show="trctrl.trIndex != -1" class="rbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
+
+          </div>
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Image Preview</th>
+              <th>Number Orientation</th>
+              <th>Period Orientation</th>
+            </tr>
+            <tr ng-repeat="item in trctrl.tableObj" ng-click="trctrl.clicked($index)" ng-class="{active : trctrl.trIndex==$index}">
+              <td>{{item.name}}</td>
+              <td>{{item.description}}</td>
+              <td>{{item.imagePreview}}</td>
+              <td>{{item.numberOrientation}}</td>
+              <td>{{item.periodOrientation}}</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
