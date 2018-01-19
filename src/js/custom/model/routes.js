@@ -27,6 +27,9 @@ $routeProvider
 .when("/datetime",{
   templateUrl:"src/views/datetime.html"
 })
+.when("/images",{
+  templateUrl:"src/views/images.html"
+})
 
 
 .when("/textProperties",{
