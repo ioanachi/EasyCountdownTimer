@@ -30,6 +30,12 @@ $routeProvider
 .when("/images",{
   templateUrl:"src/views/images.html"
 })
+.when("/users/add",{
+  templateUrl:"src/views/usersAdd.html"
+})
+
+
+
 
 
 .when("/textProperties",{
