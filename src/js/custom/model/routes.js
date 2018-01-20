@@ -41,6 +41,17 @@ $routeProvider
 .when("/textProperties",{
   templateUrl:"src/views/textProperties.html"
 })
+.when("/textProperties/add",{
+  templateUrl:"src/views/textPropertiesAdd.html"
+})
+
+
+
+
+
+
+
+
 .when("/login",{
   templateUrl:"src/views/login.html"
 })
