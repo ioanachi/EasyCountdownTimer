@@ -3,9 +3,9 @@ import {
 } from "../main.js"
 
 
-app.controller("UseraddController", ["$http", "$scope", '$location', function($http, $scope, $location) {
+app.controller("textPropertiesAddController", ["$http", "$scope", '$location', function($http, $scope, $location) {
   var tThis = this;
-  
+
 
 
 }])

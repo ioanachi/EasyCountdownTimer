@@ -10,10 +10,8 @@ app.controller("DatetimeController", ["$scope", "$mdDialog", '$location', functi
 
   tThis.datetimeObj = [{
       name: "My Timer1",
-      description: "Cip1",
-      imagePreview: "Style 1",
-      numberOrientation: "Blue",
-      periodOrientation: "18px",
+      type: "Cip1",
+      preview: "Style 1",
     }
   ];
   tThis.clicked = function(index) {
@@ -27,7 +25,7 @@ app.controller("DatetimeController", ["$scope", "$mdDialog", '$location', functi
   };
 
   $scope.showConfirm = function(ev) {
-    var objToDelete = tThis.tableObj[tThis.trIndex];
+    var objToDelete = tThis.datetimeObj[tThis.trIndex];
     console.log(objToDelete, "objToDelete");
     // Appending dialog to document.body to cover sidenav in docs app
     var confirm = $mdDialog.confirm()
@@ -40,7 +38,7 @@ app.controller("DatetimeController", ["$scope", "$mdDialog", '$location', functi
 
       $scope.status = 'You decided to delete this timer.';
 
-      tThis.tableObj.splice(objToDelete, 1);
+      tThis.datetimeObj.splice(objToDelete, 1);
       tThis.trIndex = -1;
     }, function() {
       $scope.status = 'You decided to keep this timer.';

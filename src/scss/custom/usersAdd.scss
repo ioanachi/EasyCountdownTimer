@@ -45,6 +45,24 @@ $font-Siz: 19px;
           height: 34px;
           width: 100px;
         }
+        .userTypedropd {
+          padding: 10px;
+          margin-bottom: 10px;
+          margin-left: 25px;
+
+          label {
+            font: $font-stack;
+            font-size: $font-Siz;
+          }
+
+          .userTypedropdown {
+            display: block;
+            width: 231px;
+            height: 26px;
+            @include border-radius(5px);
+          }
+        }
+
       }
     }
   }

@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row main-content">
     <div class="col-lg-12 main2">
-      <div class="textPropertiesAdd" ng-controller="TextPropertiesAddController as tpactrl">
+      <div class="textPropertiesAdd" ng-controller="textPropertiesAddController as tpactrl">
         <div class="inputN">
 
           <label for="inputName">Font Family</label>
@@ -9,26 +9,26 @@
         </div>
         <div class="inputN">
 
-          <label for="inputName">Surname</label>
-          <input class="inputName" type="text" name="" value="" required>
+          <label for="inputName">Font Size</label>
+          <input type="number"  onkeydown="javascript: return event.keyCode == 69 ? false : true" required />
         </div>
 
         <div class="inputN">
-          <label for="inputName">User Name</label>
+          <label for="inputName">Font Color</label>
           <input class="inputName" type="text" name="" value="" required>
         </div>
         <div class="inputN">
-          <label for="inputName">Email</label>
-          <input class="inputName" type="text" name="" value="" required>
+          <label for="inputName">Letter Spacing</label>
+          <input class="inputName" type="number" name="" value="" required>
         </div>
         <div class="inputN">
-          <label for="inputName">Type</label>
-          <input class="inputName" type="text" name="" value="" required>
+          <label for="inputName">Word Spacing</label>
+          <input class="inputName" type="number" name="" value="" required>
         </div>
 
 
         <div class="buttonAdd">
-        <md-button class="md-raised">Add user</md-button>
+        <md-button class="md-raised">Add properties</md-button>
         </div>
       </div>
     </div>

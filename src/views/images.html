@@ -12,17 +12,11 @@
           <table>
             <tr>
               <th>Name</th>
-              <th>Description</th>
-              <th>Image Preview</th>
-              <th>Number Orientation</th>
-              <th>Period Orientation</th>
+              <th>Picture</th>
             </tr>
             <tr ng-repeat="item in imctrl.imagesObj" ng-click="imctrl.clicked($index)" ng-class="{active : imctrl.trIndex==$index}">
               <td>{{item.name}}</td>
-              <td>{{item.description}}</td>
-              <td>{{item.imagePreview}}</td>
-              <td>{{item.numberOrientation}}</td>
-              <td>{{item.periodOrientation}}</td>
+              <td>{{item.picture}}</td>
             </tr>
           </table>
         </div>

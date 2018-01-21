@@ -12,17 +12,13 @@
           <table>
             <tr>
               <th>Name</th>
-              <th>Description</th>
-              <th>Image Preview</th>
-              <th>Number Orientation</th>
-              <th>Period Orientation</th>
+              <th>Type</th>
+              <th>Preview</th>
             </tr>
             <tr ng-repeat="item in dtctrl.datetimeObj" ng-click="dtctrl.clicked($index)" ng-class="{active : dtctrl.trIndex==$index}">
               <td>{{item.name}}</td>
-              <td>{{item.description}}</td>
-              <td>{{item.imagePreview}}</td>
-              <td>{{item.numberOrientation}}</td>
-              <td>{{item.periodOrientation}}</td>
+              <td>{{item.type}}</td>
+              <td>{{item.preview}}</td>
             </tr>
           </table>
         </div>

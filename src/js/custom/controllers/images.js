@@ -10,10 +10,7 @@ app.controller("ImagesController", ["$scope", "$mdDialog", '$location', function
 
   tThis.imagesObj = [{
       name: "My Timer1",
-      description: "Cip1",
-      imagePreview: "Style 1",
-      numberOrientation: "Blue",
-      periodOrientation: "18px",
+      picture: "Cip1",
     }
   ];
   tThis.clicked = function(index) {
