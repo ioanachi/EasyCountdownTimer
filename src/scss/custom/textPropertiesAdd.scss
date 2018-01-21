@@ -22,7 +22,7 @@ $font-Siz: 19px;
         height: 100%;
         width: 100%;
 
-        .inputN {
+        .fontF{
           padding: 10px;
           margin-bottom: 10px;
           margin-left: 25px;
@@ -32,7 +32,7 @@ $font-Siz: 19px;
             font-size: $font-Siz;
           }
 
-          .inputName {
+          .fontsTypes {
             display: block;
             @include border-radius(5px);
             width: 231px;
