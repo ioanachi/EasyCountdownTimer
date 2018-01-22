@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <div class="row main-content">
+    <div class="col-lg-12 main">
+      <div class="DTAdd" ng-controller="DatetimeAddController as dtactrl">
+
+
+        <div class="selectNamDT">
+          <label for="nameformat">Name</label>
+          <select class="nameformat" name="">
+  <option value="YY mm dd">YY mm dd</option>
+  <option value="YY dd mm">YY dd mm</option>
+  <option value="yy mm dd">yy mm dd</option>
+  <option value="yy dd mm">yy dd mm</option>
+  <option value="H:i:s">H:i:s</option>
+  <option value="H:i">H:i</option>
+</select>
+        </div>
+
+        <div class="selectTypeDT">
+          <label for="typeDT">User</label>
+          <select class="typeDT" name="">
+            <option value="date">Date</option>
+            <option value="time">Time</option>
+</select>
+        </div>
+
+        <div class="previewDT">
+        </div>
+
+        <div class="">
+          <button class="buttonAdd" type="buttonAdd" name="button">Add Format</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

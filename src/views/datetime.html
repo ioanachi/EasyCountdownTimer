@@ -4,7 +4,7 @@
       <div class="datetime" ng-controller="DatetimeController as dtctrl">
         <div class="datetimeTable">
           <div class="btns">
-            <button class="ybtn" type="button" name="button" goto-path='/timers/add'>Add</button>
+            <button class="ybtn" type="button" name="button" goto-path='/datetime/add'>Add</button>
             <button ng-show="dtctrl.trIndex != -1" class="gbtn" type="button" name="button" ng-click="dtctrl.goToEdit()">Edit</button>
             <button ng-show="dtctrl.trIndex != -1" class="rbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
 

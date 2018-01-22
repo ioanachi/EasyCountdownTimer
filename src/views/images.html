@@ -4,7 +4,7 @@
       <div class="images" ng-controller="ImagesController as imctrl">
         <div class="imagesTable">
           <div class="btns">
-            <button class="ybtn" type="button" name="button" goto-path='/timers/add'>Add</button>
+            <button class="ybtn" type="button" name="button" goto-path='/images/add'>Add</button>
             <button ng-show="imctrl.trIndex != -1" class="gbtn" type="button" name="button" ng-click="imctrl.goToEdit()">Edit</button>
             <button ng-show="imctrl.trIndex != -1" class="rbtn" ng-click="showConfirm($event)" type="button" name="button">Delete</button>
 

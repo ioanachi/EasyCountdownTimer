@@ -24,11 +24,29 @@ $routeProvider
 .when("/styles",{
   templateUrl:"src/views/styles.html"
 })
+.when("/styles/add",{
+  templateUrl:"src/views//stylesAdd.html"
+})
+
+
+
+
+
 .when("/datetime",{
   templateUrl:"src/views/datetime.html"
 })
+.when("/datetime/add",{
+  templateUrl:"src/views/datetimeAdd.html"
+})
+
+
+
+
 .when("/images",{
   templateUrl:"src/views/images.html"
+})
+.when("/images/add",{
+  templateUrl:"src/views/imagesAdd.html"
 })
 .when("/users/add",{
   templateUrl:"src/views/usersAdd.html"
