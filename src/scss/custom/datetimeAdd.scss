@@ -32,10 +32,12 @@ $font-Siz: 19px;
           }
 
           .nameformat {
+            display: block;
             @include border-radius(5px);
             display: block;
-            width: 231px;
-            height: 26px;
+            width: 230px;
+            height: 27px;
+            overflow: hidden;
           }
         }
 
