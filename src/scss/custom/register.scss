@@ -1,0 +1,54 @@
+@mixin border-shadow($radius) {
+  -webkit-box-shadow: 0 6px 20px 0 rgba(0,0,0,$radius);
+  -moz-box-shadow: 0 6px 20px 0 rgba(0,0,0,$radius);
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,$radius);
+}
+
+.main1 {
+  padding: 0;
+  height: 100%;
+
+  .registerPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, red, red 25%, rgb(21, 2, 33));
+
+    .registerBox {
+      min-width: 366px;
+      min-height: 366px;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include border-shadow(0.75);
+
+      .smallRbox {
+        display: block;
+      }
+
+      p {
+        padding: 20px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .userTypediv {
+        padding-bottom: 20px;
+
+        label {
+          padding-right: 10px;
+        }
+
+        .userType {
+          width: 122px;
+        }
+      }
+      .btns{
+        padding: 20px
+      }
+    }
+  }
+}

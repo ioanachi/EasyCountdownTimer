@@ -69,7 +69,9 @@ $routeProvider
 
 
 
-
+.when("/register",{
+  templateUrl:"src/views/register.html"
+})
 .when("/login",{
   templateUrl:"src/views/login.html"
 })
