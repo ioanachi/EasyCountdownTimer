@@ -5,23 +5,26 @@
 
         <div class="loginBox">
 
-          <div class="smallbox">
+          <form name="logForm" class="smallbox">
 
 
             <md-input-container class="md-block" flex-gt-sm>
-
-              <label for="inputName">Name</label>
-              <input class="inputName" type="text" name="" value="" required>
+              <label for="inputName">Username</label>
+              <input class="inputName" type="text" name="user" ng-model="logctrl.user" value="" required>
             </md-input-container>
-            <md-input-container class="md-block" flex-gt-sm>
+            <div class="msg-error" ng-show="logForm.user.$invalid && logForm.user.$dirty">This field is required</div>
 
+            <md-input-container class="md-block" flex-gt-sm>
               <label for="inputPass">Password</label>
-              <input class="inputPass" type="text" name="" value="" required>
+              <input class="inputPass" type="password" name="pass" value="" ng-model="logctrl.pass" required>
             </md-input-container>
+            <div class="msg-error" ng-show="logForm.pass.$invalid && logForm.pass.$dirty">This field is required</div>
+
             <div class="btns">
-             <md-button class="md-raised md-primary">Log Into Admin</md-button>
+              <md-button class="md-raised md-primary" ng-click="logctrl.loginValidate(logForm)">Log Into Admin</md-button>
+              <p class="other" goto-path="/register"><span>Register</span></p>
             </div>
-          </div>
+          </form>
         </div>
 
       </div>

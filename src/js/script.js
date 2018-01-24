@@ -4,6 +4,7 @@ import './custom/model/routes.js';
 //import services
 
 import './custom/model//directives/goToPath.js';
+import './custom/model//directives/passwCheck.js';
 import './custom/model/service.js';
 import './custom/model/serviceGet.js';
 import './custom/model/servicePut.js';
